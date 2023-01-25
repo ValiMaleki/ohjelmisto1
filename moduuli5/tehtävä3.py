@@ -5,7 +5,7 @@ if user_input <= 1:
     print(str(user_input) + " ei ole alkuluku.")
 else:
     prime = True
-    for i in range(2, int(user_input**0.5) + 1):
+    for i in range(2, int(user_input**0.5) + 1 ):
         if user_input % i == 0:
             prime = False
             break
