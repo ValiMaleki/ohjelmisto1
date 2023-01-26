@@ -1,0 +1,16 @@
+def main():
+
+    while True:
+
+        silmaluku = heita_nopaa()
+
+        print(silmaluku)
+
+        if silmaluku == 6:
+
+            break
+
+if __name__ == "__main__":
+
+    main()
+
